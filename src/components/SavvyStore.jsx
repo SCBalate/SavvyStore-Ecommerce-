@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from './Header'
+import  Header  from './Header'
 // import {Shimmer} from './Shimmer'
 import SavvyStoreRoutes from './SavvystoreRoutes'
 import { ToastContainer } from 'react-toastify'
