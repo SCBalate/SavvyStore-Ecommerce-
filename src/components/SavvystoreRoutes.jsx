@@ -13,7 +13,7 @@ import Signup from '../pages/Auth/Signup/Signup'
 import Mockman from "mockman-js";
 const SavvystoreRoutes = () => {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
         <Routes>
             <Route path ="/" element={<HomePage/>}/>
             <Route path="/product" element={<ProductListPage />} />

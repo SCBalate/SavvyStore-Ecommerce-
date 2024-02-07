@@ -5,6 +5,7 @@ import App from "./App";
 import { makeServer } from "./server";
 import { BrowserRouter as Router } from "react-router-dom";
 import { createRoot } from "react-dom/client";
+import DataContextProvider from "./context/dataContext";
 
 const root = createRoot(document.getElementById("root"));
 // Call make Server
@@ -12,6 +13,8 @@ makeServer();
 
 root.render(
   <Router>
-    <App />
+    <DataContextProvider>
+      <App />
+    </DataContextProvider>
   </Router>
 );
